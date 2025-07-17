@@ -169,7 +169,12 @@ In the end, it wasn’t about analyzing everything — it was about answering th
 |
 └── READE.md
 
+```
 
-## Linkedln
+## 👥 Connect With Us
+We’re passionate about data storytelling and using analysis to drive actionable insights. Feel free to connect with us on **LinkedIn**!
+- [Debo Odutola](https://www.linkedin.com/in/deboodutola/)
+- [Ayema Qureshi](https://www.linkedin.com/in/ayema-qureshi-901287187/)
+
 
 
