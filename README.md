@@ -39,7 +39,7 @@
   - `0–1 (Puppy), 2–3 (Young), 4–6 (Adult), 7–10 (Senior), 10+ (Elderly)`
  
 #### Column Cleanup
-- Removed unused or duplicate fields (e.g. `LicenseIssuedYear`)
+- Removed unused or duplicate fields (e.g., `LicenseIssuedYear`)
 
 #### ZIP Code Cleanup
 - ZIP codes were critical for our geographic visualizations (like maps by borough or ZIP), so we needed to make sure the data was clean and accurate. We handled this process in two key steps:
@@ -52,7 +52,7 @@
   - **Cross-Check with Official NYC ZIP List**
     - To validate ZIP codes more thoroughly, we used an external file: `zipcode.csv`, which contained a verified list of valid NYC ZIP codes.
     - We compared every ZIP code in our dataset against this official list to filter out any invalid, outdated, or non-NYC ZIPs.
-    - We also cleaned up formatting quirks from Excel exports, such as `.0` suffixes that appeared when numbers were read as floats.\
+    - We also cleaned up formatting quirks from Excel exports, such as `.0` suffixes that appeared when numbers were read as floats.
     - This was important because:
       1. Ensured that all geographic visualizations (especially our ZIP code map) were accurate and didn’t mislead stakeholders with bad data.
       2. Prevented invalid ZIPs from skewing analysis, for example, a license record with `00000` would distort mapping entirely.
@@ -63,14 +63,14 @@
 - To address this, we implemented a two-step cleaning process:
   - **Regex-Based Cleanup with re**
     - We used regular expressions to standardize mix indicators like "Mix", "X", and "Crossbreed"
-    - This ensured that similar breed types were grouped under a single standard label such as "Poodle Mix".
+    - This ensured that similar breed types were grouped under a single standard label, such as "Poodle Mix".
   - **Fuzzy Matching with thefuzz**
     - Even after regex cleanup, breed names varied too widely for manual standardization. So we used the fuzz library from thefuzz package to compare each unique breed name to a curated reference list of common dog breeds and their standardized labels. We mapped any breed that matched with a similarity score ≥ 85 to its closest reference value.
   - This method allowed us to automatically consolidate variants like:
     - "Yorkie Poodle" → "Yorkshire Terrier Mix"
     - "Labrador Retriever" and "Lab Ret" → "Labrador Retriever"
   - **Handling Unknown or Placeholder Breeds**
-    - We also identified and replaced invalid or placeholder breed names such as:
+    - We also identified and replaced invalid or placeholder breed names, such as:
     - `"Unknown", "NoName", "Mixbreed", "0"`, etc. These were flagged with a boolean column IsBadName to help with filtering or analysis decisions later in Tableau.
 
 - _This allowed us to have_: 
@@ -96,13 +96,13 @@
   - _Action:_ ACC can target awareness campaigns in areas with low senior dog licensing
 
 #### Line Chart: Licensing Trends Over Time by Age Group
-- Puppy licenses peak in 2021
+- Puppy licenses peaked in 2021
 - Elderly dog licenses are consistently lowest
 - Senior dog licensing is declining year over year
   -_ Action:_ Renewals and long-term ownership may need more city outreach or incentives
 
 #### Tree Map: Breed by Age Group
-- Shows which breeds are mostly licensed as filtered by age group, such as in puppies, the most popular breed is American Pit Bull terrier mix
+- Shows which breeds are mostly licensed as filtered by age group, such as in puppies, the most popular breed is American Pit Bull Terrier mix
 - Identifies breeds like Shih Tzus and Airedale Terriers that appear in older age groups
   - _Action:_ Breed-specific adoption or renewal strategies could be developed
 
