@@ -1,0 +1,21 @@
+# macOS system files
+**/.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# CSVs and Excel
+*.csv
+*.xlsx
+
+# Notebooks
+*.ipynb_checkpoints/
+
+# General backup/swap files
+*~
+*.swp
+
