@@ -90,23 +90,31 @@
 🔗 [View Dashboard on Tableau](https://public.tableau.com/app/profile/debo.odutola/viz/Book1_17514704095920/Dashboard12?publish=yes)
 
 #### Histogram: Dog Age Distribution at Licensing
+<img width="600" height="473" alt="Histogram " src="https://github.com/user-attachments/assets/23aabb40-7539-4e79-9af1-80bbd9f11c29" />
+
 - Most dogs are licensed under age 3
 - Very few senior/elderly dogs are licensed
 - Suggests that older dogs are either less likely to be adopted or renewed
   - _Action:_ ACC can target awareness campaigns in areas with low senior dog licensing
 
 #### Line Chart: Licensing Trends Over Time by Age Group
+<img width="600" height="457" alt="Screenshot 2025-07-17 at 10 04 01 AM" src="https://github.com/user-attachments/assets/80c6afec-66fc-4030-b285-706408f8057b" />
+
 - Puppy licenses peaked in 2021
 - Elderly dog licenses are consistently lowest
 - Senior dog licensing is declining year over year
   -_ Action:_ Renewals and long-term ownership may need more city outreach or incentives
 
 #### Tree Map: Breed by Age Group
+<img width="600" height="469" alt="Treemap" src="https://github.com/user-attachments/assets/a3d86b43-a9a2-4bae-8c13-c2bfff062395" />
+
 - Shows which breeds are mostly licensed as filtered by age group, such as in puppies, the most popular breed is American Pit Bull Terrier mix
 - Identifies breeds like Shih Tzus and Airedale Terriers that appear in older age groups
   - _Action:_ Breed-specific adoption or renewal strategies could be developed
 
 #### Filled Map: Licensing by ZIP Code
+<img width="600" height="473" alt="Screenshot 2025-07-17 at 10 05 34 AM" src="https://github.com/user-attachments/assets/9c9d8a6e-e2f8-4441-8689-d1c58cda58a1" />
+
 - Visualizes where younger vs older dogs are licensed
 - Highlights geographic patterns by breed and age group
   - _Action:_ Helps ACC identify neighborhoods for localized campaigns or events
