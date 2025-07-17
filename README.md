@@ -103,7 +103,7 @@
 - Puppy licenses peaked in 2021
 - Elderly dog licenses are consistently lowest
 - Senior dog licensing is declining year over year
-  -_ Action:_ Renewals and long-term ownership may need more city outreach or incentives
+  - _ Action:_ Renewals and long-term ownership may need more city outreach or incentives
 
 #### Tree Map: Breed by Age Group
 <img width="600" height="469" alt="Treemap" src="https://github.com/user-attachments/assets/a3d86b43-a9a2-4bae-8c13-c2bfff062395" />
@@ -112,8 +112,8 @@
 - Identifies breeds like Shih Tzus and Airedale Terriers that appear in older age groups
   - _Action:_ Breed-specific adoption or renewal strategies could be developed
 
-#### Filled Map: Licensing by ZIP Code
-<img width="600" height="473" alt="Screenshot 2025-07-17 at 10 05 34 AM" src="https://github.com/user-attachments/assets/9c9d8a6e-e2f8-4441-8689-d1c58cda58a1" />
+#### Symbol Map: Licensing by ZIP Code
+<img width="600" height="655" alt="Screenshot 2025-07-17 at 3 50 17 PM" src="https://github.com/user-attachments/assets/1604ae56-2c06-4b79-b2e8-b662049074d1" />
 
 - Visualizes where younger vs older dogs are licensed
 - Highlights geographic patterns by breed and age group
