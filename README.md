@@ -58,9 +58,6 @@
       2. Prevented invalid ZIPs from skewing analysis, for example, a license record with `00000` would distort mapping entirely.
       3. Made it possible to link each license to a real NYC neighborhood, helping stakeholders identify underserved or overrepresented areas.
      
-#### Column Cleanup
-- Removed unused or duplicate fields (e.g. `LicenseIssuedYear`)
-
 #### Breed Standardization
 - The `BreedName` column in the dataset had significant inconsistencies. For example, the same breed appeared under many slightly different names such as "Poodle Mix", "Poodle X", "Poodle Crossbreed", or even informal variants like "Poodle Dog" or "Poodle-type". These inconsistencies posed a problem for accurate aggregation and trend analysis, especially when grouping by breed.
 - To address this, we implemented a two-step cleaning process:
@@ -118,13 +115,10 @@
 ## Based on our analysis, we recommend:
 - Encouraging senior dog licensing:
   - Offer discounts, reminders, or partner with vets for older pet outreach
-
 - Target ZIP codes with low senior dog license counts: 
   - These areas could benefit from education or adoption events
-
 - Standardize breed input for better analysis
   - The licensing system could enforce dropdown-based input instead of free text
-
 - Track renewal rates by breed and age
   - This would help ACC understand which populations are staying licensed over time
 
