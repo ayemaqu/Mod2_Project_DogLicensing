@@ -161,6 +161,8 @@ In the end, it wasn’t about analyzing everything — it was about answering th
 ├── notebooks/
 │   ├── cleaning_and_eda.ipynb
 |
+└── .gitignore
+|
 └── READE.md
 
 ```
