@@ -37,10 +37,7 @@
 - Calculated `ApproxDogAge` = `IssueYear` - `AnimalBirthYear`
 - Created `DogAgeGroup` bins:
   - `0–1 (Puppy), 2–3 (Young), 4–6 (Adult), 7–10 (Senior), 10+ (Elderly)`
-
-#### ZIP Code Cleanup
-- Kept only rows with valid 5-digit ZIP codes
-
+ 
 #### Column Cleanup
 - Removed unused or duplicate fields (e.g. `LicenseIssuedYear`)
 
@@ -154,3 +151,25 @@
 - That mindset helped us filter out noise, like redundant columns or overcomplicated features, and stay focused on what truly matters. We didn’t just prioritize visuals; we prioritized value. Each visualization was selected not just to show data, but to tell part of a story, one that could help Animal Care Centers of NYC make informed decisions about outreach, renewal campaigns, and breed-specific policies.
 
 In the end, it wasn’t about analyzing everything — it was about answering the right question, with purpose.
+
+
+## Folder Structure 
+```text
+.
+├── data/
+│   ├── raw/
+         ├── NYC_Dog_Licensing_Dataset_.csv
+│   └── cleaned/
+         ├── final_dataset.csv
+         ├── zipcode.csv
+├── excel/
+│   ├── final_dataset.csv
+├── notebooks/
+│   ├── cleaning_and_eda.ipynb
+|
+└── READE.md
+
+
+## Linkedln
+
+
